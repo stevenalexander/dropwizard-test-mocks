@@ -1,6 +1,6 @@
-# Dropwizard login
+# Dropwizard test mocks
 
-Simple login example using Java [Dropwizard](http://dropwizard.codahale.com/getting-started/).
+Simple Dropwizard example showing how to test with mocks, forked from [Dropwizard-login](https://github.com/stevenalexander/dropwizard-login).
 
 ## Requirements
 
@@ -14,6 +14,10 @@ To build:
     mvn package
     ```
 
+To test:
+    ```
+    mvn test
+
 To run jar:
     ```
     java -jar target/login-0.0.1-SNAPSHOT.jar server login-service.yml
@@ -24,4 +28,8 @@ To run jar:
 2. Create the [yaml configuration file](http://dropwizard.codahale.com/manual/jdbi/) containing the DB config, login-service.yml
 
 3. Post to http://localhost:8080/session with valid values for fields 'username' and 'password' to try out.
+
+## Mocks
+
+TODO
 

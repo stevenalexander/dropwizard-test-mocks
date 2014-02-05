@@ -9,16 +9,19 @@ Simple Dropwizard example showing how to test with mocks, forked from [Dropwizar
 
 ## Setup
 
-To build:
+### To build:
+
     ```
     mvn package
     ```
 
-To test:
+### To test:
+
     ```
     mvn test
 
-To run jar:
+### To run jar:
+
     ```
     java -jar target/login-0.0.1-SNAPSHOT.jar server login-service.yml
     ```
